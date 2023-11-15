@@ -1,0 +1,135 @@
+.body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 490px;
+    border: 5px solid #b3b3b3;
+    border-radius: 10px;
+    transition: 0.5 ease;
+    padding: 40px;
+}
+.login:hover{
+    box-shadow: 3px 3px 50px #63DBFF;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.h2{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    color: #b3b3b3;
+}
+
+.input-text{
+    position: relative;
+    margin: 20px 0;
+    border: none;
+}
+.back{
+    position: fixed;
+
+}
+
+.input-text input{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    padding-left: 30px;
+    border-bottom: 2px solid #b3b3b3;
+    transition: 0.5s ease;
+}
+
+.input-text input:focus{
+    border-bottom: 5px solid #63DBFF;
+    border-radius: 10px;
+}
+
+.input-text i{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    color: #63DBFF;
+}
+
+.btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    border: #b3b3b3 solid;
+}
+
+.btn:hover{
+    background-color: #63DBFF;
+}
+
+.remember{
+    margin-top: 50px;
+    color: #b3b3b3;
+}
+
+.a{
+    float: right;
+}
+
+
+
+
+@media screen and (max-width: 375px){
+
+    .login{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 500px;
+        border: 5px solid #b3b3b3;
+        border-radius: 10px;
+        transition: 0.5 ease;
+        padding: 40px;
+        text-align: center;
+    }
+
+
+
+}
+@media screen and (max-width: 425px){
+
+    .login{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+        height: 500px;
+        border: 5px solid #b3b3b3;
+        border-radius: 10px;
+        transition: 0.5 ease;
+        padding: 40px;
+        text-align: center;
+    }
+
+
+
+}
